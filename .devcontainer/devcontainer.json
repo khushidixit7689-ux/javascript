@@ -6,26 +6,28 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	 "features":{
+		"ghcr.io/devcontainers/features/azure-cli:1":{}
+	 },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	 "forwardPorts": [4000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	"postCreateCommand": "npm install",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
+				"rangav.vscode-thunder-client",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight"
 			],
 			"settings": {
 				"editor.fontSize": 32,
-				"terminal.integrated.fontSize": 24,
-				"editor.wordWrap": "on"
+				"terminal.integrated.fontSize": 24	
 			}
 			
 		}
