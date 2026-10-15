@@ -4,7 +4,7 @@ let age = 19
 
 console.log(`my name is ${name} and my age is ${age}`)
 
-const myname = new String ('khushi')  // another way of string declaration , all methods of string can be seen in console 
+const myname = new String ('khushi')  // another way of string declaration , all methods of string can be seen in console by writing this.
 console.log(myname.length)
 const newsting = myname.substring(0,3)
 console.log(newsting)
