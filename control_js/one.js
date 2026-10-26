@@ -1,24 +1,24 @@
 // if
-const temp=50
-if(temp<58){
+// const temp=50
+// if(temp<58){
 
-}
-else{
+// }
+// else{
 
-}
-//<,>,<=,>=,==,!=,===
-const bal = 100
-if (bal>47) console.log("khushi"); // shorthand
+// }
+// //<,>,<=,>=,==,!=,===
+// const bal = 100
+// if (bal>47) console.log("khushi"); // shorthand
 
-// if else if else
+// // if else if else
 
-if(){
+// if(){
 
-} else if(){
+// } else if(){
 
-}else{
+// }else{
 
-}
+// }
 
 
 
