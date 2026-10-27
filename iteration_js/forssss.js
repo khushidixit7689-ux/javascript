@@ -30,12 +30,64 @@ for (const [key , value] of map) {     // if we want separate key value so we us
 //  Object
 const myobject = {
     js : 'javascript',
-    cpp : 'c++'
-    rb : 'ruby'
+    cpp : 'c++',
+    rb : 'ruby',
     swift : 'swift by apple'
+}
+
+for (const key in myobject) {
+    console.log(`${key} shortcut is for  ${myobject[key]}`)
 }
 
 
 
 
+// For each loop
 
+const coding = ["js", "ruby", "java"]
+
+coding.forEach( function (val){
+    console.log(val)
+}  )
+
+
+coding.forEach((val) => {
+    console.log(val)
+})
+
+
+
+
+function print(item){
+    console.log(item)
+}
+
+coding.forEach(print)
+
+
+coding.forEach((item,index,arr)=>{
+    console.log(item,index,arr)
+})
+
+
+
+//mostly used
+
+const mycoding = [
+    {
+        name:"khushi",
+        age:19
+    },
+    {
+        name:"harsh",
+        age:21
+    },
+    {
+        name:"harshi",
+        age:2
+    },
+]
+ 
+mycoding.forEach(  (item) =>{
+    console.log(item.name1)
+})
